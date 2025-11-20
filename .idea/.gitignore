@@ -12,3 +12,9 @@
 
 *.xml
 *.iml
+
+# Environment files
+.env
+*.env
+config/.env
+
