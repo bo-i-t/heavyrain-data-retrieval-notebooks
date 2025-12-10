@@ -62,3 +62,11 @@ MINIO_ENDPOINT=<minio-url>
 MINIO_ACCESS_KEY=<your-access-key>
 MINIO_SECRET_KEY=<your-secret-key>
 
+### Notebook examples
+
+| Notebook | Data Type | Notes |
+|----------|-----------|------|
+| `notebooks/radar_data_example.ipynb` | Radar `.scu` via MinIO | Uses RADAR_* config variables |
+| `notebooks/satellite_data_example.ipynb` | Satellite imagery via MinIO | Uses MINIO_* and SAT_* variables |
+
+Make sure you have configured your `.env` file before running these notebooks.
