@@ -5,4 +5,8 @@ __pycache__/
 config/.env
 .env
 .DS_Store
+notebooks/downloads_cell1_radar/
+notebooks/downloads_cell2_radar/
+notebooks/downloads_cell1_satellite/
+notebooks/downloads_cell2_satellite/
 
