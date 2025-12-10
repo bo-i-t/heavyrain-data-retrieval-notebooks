@@ -46,3 +46,19 @@ API and other settings
 - Empty results → no data for selected city or date range.
 - TypeError: no numeric data to plot → handled automatically when converting rain_value.
 
+---
+
+## 📡 Radar & Satellite Data
+
+We now support retrieving radar `.scu` files and satellite imagery from MinIO via the heavyRAIN API.
+
+### 🔧 Setup (required)
+Extend your `config/.env` file with:
+
+```bash
+RADAR_API_BASE=<URL>
+RADAR_API_TOKEN=<token>
+MINIO_ENDPOINT=<minio-url>
+MINIO_ACCESS_KEY=<your-access-key>
+MINIO_SECRET_KEY=<your-secret-key>
+
